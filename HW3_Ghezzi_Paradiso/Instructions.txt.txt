@@ -1,0 +1,18 @@
+Instructions:
+1) The CODE.mlx file contains the Matlab code to run to obtain the presented results. The file is divided into sections, one for each tested method. For methods that were tested on more than one matrix, the unmodified code runs the most general matrix tested, and the other ones are commented. To run the algorithm with the other matrices, the user must comment the default one, uncomment the one to try and run the code again.
+2) The other files are the implemented Matlab functions that are called inside the CODE.mlx file. For the CODE.mlx file to run, all the functions must be saved by the user in the same folder as the main code file. The implemented functions are the following:
+- bidiagonal: turns a rectangular matrix into bidiagonal form
+- compute_eigenpairs : computes eigenpairs of a matrix using shifting and power method
+- compute_m_greatest_eigenvalues : computes eigenpairs of a matrix using deflation and power method
+- compute_m_smallest_eigenvalues : computes eigenpairs of a matrix using deflation and inverse power method
+- deflation_method : implements deflation method
+- inverse_power_method : implements inverse power method
+- lanczos_method : implements lanczos method
+- power_method : implements power method
+- QR_method : implements QR method for eigenpairs
+- QR_shift_method : implements shifted QR method for eigenvalues
+- shifting_method : implements the shifting method
+- similar_hessemberg : computes a similar upper hessenberg matrix
+- SVD : computes the svd decomposition
+All files are contained inside the Code_and_functions folder.
+
